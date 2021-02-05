@@ -1,0 +1,13 @@
+
+
+body{
+  padding: 0 20%;
+}
+
+
+[class*="col-"]{
+  min-height: 200px;
+  background-color: red;
+  border: solid 1px #000;
+  text-align: center;
+}
