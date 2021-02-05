@@ -7,7 +7,18 @@ body{
 /* col rules */
 [class*="col-"]{
   min-height: 200px;
-  background-color: red;
+  background-color: pink;
   border: solid 1px #000;
   text-align: center;
+  line-height: 200px;
+  vertical-align: middle;
+}
+
+.row .nested{
+  padding: 5px;
+}
+
+.dark{
+background-color: #f07f80;
+border: solid 1px #ffffff;
 }
