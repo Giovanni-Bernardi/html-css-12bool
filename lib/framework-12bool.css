@@ -1,6 +1,6 @@
 /* FRAMEWOK 12BOOL */
 
-/* regole genrali */
+/* general rules */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
   clear: both;
 }
 
-/* regole delle colonne */
+/* column rules */
 
 [class*="col-"]{
   float: left;
@@ -74,7 +74,7 @@
 }
 
 
-/* regole di offset */
+/* offset rules */
 
 .col-offset-1 {
   margin-left: calc((100% / 12) * 1);
